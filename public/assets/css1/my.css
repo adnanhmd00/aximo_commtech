@@ -1,0 +1,359 @@
+.df-row-ss {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.df-row-ee {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.df-row-cc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.df-row-sc {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.df-col-cc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.df-col-ss {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.myfafa {
+  font-size: 20px;
+}
+.my-card {
+  display: none;
+}
+.fa-lang {
+  font-size: 25px;
+}
+.text-rit {
+  text-align: right;
+  display: flex !important;
+  text-align: initial;
+  line-height: normal !important;
+}
+.my-login-btn {
+  background-color: #3c3fa2 !important;
+}
+.nav li a i {
+  color: #66615b !important;
+}
+.head-text {
+  color: #3c3fa2 !important;
+  font-size: 30px;
+  font-weight: 600;
+}
+.lang-drop {
+  border: none;
+}
+.drop {
+  background: none;
+  border: none;
+  background-image: url("../img/eng.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 30px;
+  outline: 0px;
+}
+/* select {
+  background-color: transparent;
+ 
+  height: 20px;
+
+  color: #CCC;
+} */
+.option-1 {
+  background: none;
+  border: none;
+  background-image: url("../img/fn.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 30px;
+  outline: 0px;
+}
+.my-canvas {
+  display: none !important;
+}
+.index-card-a {
+  text-decoration: none !important;
+  color: black;
+}
+.admin-logo {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.head-icon {
+  height: 40px;
+  width: 40px;
+}
+#backButton {
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+  background-color: #2eacd1;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.invisible {
+  display: none;
+}
+.canvasjs-chart-credit{
+  display: none;
+}
+.users-span{
+  justify-content: flex-end;
+    display: flex;
+    padding-right: 10px;
+}
+.fa-rit{
+  font-size: 10px!important;
+}
+.my-content-body{
+  margin-top: 80px;
+}
+.card-header{
+  border-color: #eaeaea;
+    position: relative;
+    background: transparent;
+    padding: 1.25rem 1.25rem 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px;
+}
+.card-user .author .title {
+  color: #403D39;
+}
+.card-user .description {
+  margin-top: 10px;
+}
+.card .description {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+#file{
+  display: none;
+}
+#uploadBtn{
+  
+  color: blue;
+  
+}
+.forgot-psw{
+  text-align: end;
+}
+
+.card-user .avatar.border-white {
+  border: 5px solid #FFFFFF;
+}
+.card-user .image {
+  border-radius: 8px 8px 0 0;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+.card-user .image {
+  border-radius: 8px 8px 0 0;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+.card-user .author {
+  text-align: center;
+  text-transform: none;
+  margin-top: -65px;
+}
+
+.goog-logo-link {
+  display: none;
+}
+
+.goog-te-banner {
+  display: none!important;
+}
+
+.goog-te-banner-frame {
+  display: none!important;
+  visibility: hidden;
+}
+
+.goog-te-combo {
+  width: 80px!important;
+  background: #ffffff00;
+  color: #66615B;
+  border: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.goog-te-combo option {
+  background-color: #F7F7F7!important;
+  padding: 5px
+}
+
+.goog-logo-link {
+  display: none!important;
+}
+
+#google_translate_element {
+  display: -webkit-inline-box;
+}
+
+.goog-te-gadget {
+  font-family: arial;
+  font-size: 11px;
+  color: #F7F7F7!important;
+  white-space: nowrap;
+  margin-top:10px
+}
+
+.goog-te-combo option[value="sq"],
+[value="hy"],
+[value="af"],
+[value="am"],
+[value="az"],
+[value="eu"],
+[value="be"],
+[value="bn"],
+[value="bs"],
+[value="bg"],
+[value="ca"],
+[value="ceb"],
+[value="ny"],
+[value="zh-CN"],
+[value="zh-TW"],
+[value="co"],
+[value="hr"],
+[value="cs"],
+[value="da"],
+[value="eo"],
+[value="et"],
+[value="tl"],
+[value="fi"],
+[value="fy"],
+[value="gl"],
+[value="ka"],
+[value="de"],
+[value="el"],
+[value="gu"],
+[value="ht"],
+[value="ha"],
+[value="haw"],
+[value="iw"],
+[value="hi"],
+[value="hmn"],
+[value="hu"],
+[value="is"],
+[value="ig"],
+[value="id"],
+[value="ga"],
+
+[value="ja"],
+[value="jw"],
+[value="kn"],
+[value="kk"],
+[value="km"],
+[value="rw"],
+[value="ko"],
+[value="ku"],
+[value="ky"],
+[value="lo"],
+[value="la"],
+[value="lv"],
+[value="lt"],
+[value="lb"],
+[value="mk"],
+[value="mg"],
+[value="ms"],
+[value="ml"],
+[value="mt"],
+[value="mi"],
+[value="mr"],
+[value="mn"],
+[value="my"],
+[value="ne"],
+[value="no"],
+[value="or"],
+[value="ps"],
+[value="fa"],
+[value="pl"],
+
+[value="pa"],
+[value="ro"],
+[value="ru"],
+[value="sm"],
+[value="gd"],
+[value="sr"],
+[value="st"],
+[value="sn"],
+[value="sd"],
+[value="si"],
+[value="sk"],
+[value="sl"],
+[value="so"],
+[value="su"],
+[value="sw"],
+[value="sv"],
+[value="tg"],
+[value="ta"],
+[value="tt"],
+[value="te"],
+[value="th"],
+[value="tr"],
+[value="tk"],
+[value="uk"],
+[value="ur"],
+[value="ug"],
+[value="uz"],
+[value="vi"],
+[value="cy"],
+[value="xh"],
+[value="yi"],
+[value="yo"],
+[value="zu"] {
+  display: none;
+}
+
+.goog-gt-tt {
+  display: none;
+}
+
+body {
+ 
+  position: relative!important;
+  min-height: 100%!important;
+  top: 0px!important;
+  overflow: visible!important;
+}
+#goog-gt-tt{
+  display:none!important;
+}
+
